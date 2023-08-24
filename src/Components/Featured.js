@@ -38,6 +38,37 @@ function Featured() {
         </div>
         <div className="featured__img-container">
         <div className='featured__img-wrapper'> 
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/Joon.jpeg' alt="joon"></img>
+        </div>
+        <div className='featured__img-wrapper'> 
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/JoonSoft.jpeg' alt="joon"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/Gojo.jpeg' alt="gojo"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/GojoSoft.jpeg' alt="gojo"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/Geto.jpeg' alt="geto"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/GetoSoft.jpeg' alt="geto"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/Corey.jpeg' alt="corey"></img>
+        </div>
+        <div className='featured__img-wrapper'>
+        <img className="Featured__imgceleb lazy" src="https://fakeimg.pl/900x900"
+    data-src='/CoreySoft.jpeg' alt="corey"></img>
+=======
         <img className="Featured__imgceleb lazy" src='/Joon.jpeg' alt="joon"></img>
         </div>
         <div className='featured__img-wrapper'> 
@@ -60,6 +91,7 @@ function Featured() {
         </div>
         <div className='featured__img-wrapper'>
         <img className="Featured__imgceleb lazy" src='/CoreySoft.jpeg' alt="corey"></img>
+
         </div>
         </div>
         <section class="work container section">
@@ -70,7 +102,12 @@ function Featured() {
         <div className='work__container'>
         <h3 className='work__project-title'>Anime city 1</h3>
         <div className='work__img-wrapper work__image1'>
+
+        <img src="https://fakeimg.pl/900x900"
+    data-src='/1.png' alt="anime city" className='lazy'></img>
+
         <img src='/1.png' alt="anime city" className='lazy'></img>
+
         </div>
         <div className='work__project work__content1'>
         <h3 className='work__subtitle'>Anime City 1</h3>    
@@ -81,7 +118,12 @@ function Featured() {
 
         <h3 className='work__project-title'>Anime city 2</h3>
         <div className='work__img-wrapper work__image2'>
+
+        <img src="https://fakeimg.pl/900x900"
+    data-src='/2.png' alt="anime city" className='lazy'></img>
+
         <img src='/2.png' alt="anime city" className='lazy'></img>
+
         </div>
         <div className='work__project work__content2'>
         <h3 className='work__subtitle'>Anime City 2</h3> 
@@ -92,7 +134,12 @@ function Featured() {
 
         <h3 className='work__project-title'>Anime city 3</h3>
         <div className='work__img-wrapper work__image3'>
+
+        <img src="https://fakeimg.pl/900x900"
+    data-src='/3.png' alt="anime city" className='lazy'></img>
+
         <img src='/3.png' alt="anime city" className='lazy'></img>
+
         </div>
         <div className='work__project work__content3'>
         <h3 className='work__subtitle'>Anime City 3</h3> 
@@ -103,7 +150,12 @@ function Featured() {
 
         <h3 className='work__project-title'>Anime city 4</h3>
         <div className='work__img-wrapper work__image4'>
+
+        <img src="https://fakeimg.pl/900x900"
+    data-src='/4.png' alt="anime city" className='lazy'></img>
+
         <img src='/4.png' alt="anime city" className='lazy'></img>
+
         </div>
         <div className='work__project work__content4'>
         <h3 className='work__subtitle'>Anime City 4</h3> 
@@ -114,7 +166,12 @@ function Featured() {
 
         <h3 className='work__project-title'>Anime city 5</h3>
         <div className='work__img-wrapper work__image5'>
+
+        <img src="https://fakeimg.pl/900x900"
+    data-src='/5.png' alt="anime city" className='lazy'></img>
+
         <img src='/5.png' alt="anime city" className='lazy'></img>
+
         </div>
         <div className='work__project work__content5'>
         <h3 className='work__subtitle'>Anime City 5</h3> 

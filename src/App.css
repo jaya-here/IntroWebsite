@@ -53,6 +53,54 @@ body {
   font-family: 'General Sans', sans-serif;
   background-color: var(--clr-dark) ;
   color: var(--clr-light)
+
+}
+
+
+
+
+img, 
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding:0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit
+}
+
+a {
+  color: var(--clr-indigo)
+}
+
+strong {
+  color: var(--clr-indigo)
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid slategrey;
+}
+
+
+=======
 }
 
 
@@ -82,6 +130,7 @@ a {
 strong {
   color: var(--clr-indigo)
 }
+
 
 li {
   list-style-type: none;
@@ -119,6 +168,17 @@ li {
 .section {
   margin-top: 5rem;
 }
+
+
+.loading {
+filter: blur(40px) grayscale(100%)
+}
+
+.loaded {
+filter: blur(0) grayscale(0);
+transition:0.7s ease-in-out
+}
+
 
 @media (min-width:475px) {
   .container {
