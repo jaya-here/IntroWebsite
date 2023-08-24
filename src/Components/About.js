@@ -25,9 +25,12 @@ function About() {
       
     </div>
     <div className='about__img-wrapper'>
+
     <img className="about__img lazy" 
     src="https://fakeimg.pl/900x900"
     data-src='/photo.jpg' alt='Profile picture' />
+
+    <img className="about__img lazy" src='/photo.jpg' alt='Profile picture' />
     </div>
    </section>
   )

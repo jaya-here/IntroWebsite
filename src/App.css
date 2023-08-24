@@ -53,6 +53,7 @@ body {
   font-family: 'General Sans', sans-serif;
   background-color: var(--clr-dark) ;
   color: var(--clr-light)
+
 }
 
 
@@ -99,6 +100,38 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+=======
+}
+
+
+img, 
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding:0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit
+}
+
+a {
+  color: var(--clr-rose)
+}
+
+strong {
+  color: var(--clr-indigo)
+}
+
+
 li {
   list-style-type: none;
 }
@@ -136,6 +169,7 @@ li {
   margin-top: 5rem;
 }
 
+
 .loading {
 filter: blur(40px) grayscale(100%)
 }
@@ -144,6 +178,7 @@ filter: blur(40px) grayscale(100%)
 filter: blur(0) grayscale(0);
 transition:0.7s ease-in-out
 }
+
 
 @media (min-width:475px) {
   .container {
